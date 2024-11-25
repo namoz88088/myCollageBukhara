@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>International College of Uzbekistan</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                       url('https://www.advantour.com/img/uzbekistan/bukhara/bukhara.jpg') center/cover;
+        }
+        
+        .gallery-item img {
+            min-height: 300px;
+            background-color: #f0f0f0;
+        }
+        
+        .gallery-item img.error {
+            background: #f0f0f0 url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="%23999" d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg>') center/48px no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">ICU</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#admission">Admission</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to International College of Uzbekistan</h1>
+            <p>Shaping Tomorrow's Leaders Through Excellence in Education</p>
+            <a href="#admission" class="cta-button">Apply Now</a>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Our Historic Location - Bukhara</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="https://www.advantour.com/img/uzbekistan/bukhara/poi-kalyan.jpg" 
+                     alt="Po-i-Kalyan Complex in Bukhara" 
+                     onerror="this.classList.add('error')">
+                <div class="gallery-caption">Po-i-Kalyan Complex</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://www.advantour.com/img/uzbekistan/bukhara/chor-minor.jpg" 
+                     alt="Chor Minor Madrasah" 
+                     onerror="this.classList.add('error')">
+                <div class="gallery-caption">Chor Minor Madrasah</div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://www.advantour.com/img/uzbekistan/bukhara/mir-arab.jpg" 
+                     alt="Mir-i-Arab Madrasah" 
+                     onerror="this.classList.add('error')">
+                <div class="gallery-caption">Mir-i-Arab Madrasah</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="programs" class="programs">
+        <h2>Our Programs</h2>
+        <div class="program-cards">
+            <div class="program-card">
+                <div class="program-icon">
+                    <i class="fas fa-handshake"></i>
+                </div>
+                <img src="https://img.freepik.com/free-photo/business-people-shaking-hands-together_53876-30568.jpg" 
+                     alt="Business Administration Program - Professional Meeting" 
+                     onerror="this.classList.add('error')">
+                <h3><i class="fas fa-chart-line"></i> Business Administration</h3>
+                <p>Develop leadership skills and business acumen for the global market.</p>
+                <a href="#" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="program-card">
+                <div class="program-icon">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <img src="https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg" 
+                     alt="Information Technology Program" 
+                     onerror="this.classList.add('error')">
+                <h3><i class="fas fa-microchip"></i> Information Technology</h3>
+                <p>Learn cutting-edge technologies and software development.</p>
+                <a href="#" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="program-card">
+                <div class="program-icon">
+                    <i class="fas fa-cogs"></i>
+                </div>
+                <img src="https://img.freepik.com/free-photo/engineer-meeting-architectural-project-working-with-partner_1421-89.jpg" 
+                     alt="Engineering Program" 
+                     onerror="this.classList.add('error')">
+                <h3><i class="fas fa-tools"></i> Engineering</h3>
+                <p>Innovation and problem-solving in modern engineering.</p>
+                <a href="#" class="program-link">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="https://img.freepik.com/free-photo/group-diverse-students-campus_53876-138797.jpg" 
+                     alt="Campus Life" 
+                     onerror="this.classList.add('error')">
+            </div>
+            <div class="about-text">
+                <p>Founded in 2023, International College of Uzbekistan is committed to providing world-class education while preserving and promoting Uzbek culture and values. Our state-of-the-art facilities and experienced faculty ensure that students receive the best possible education.</p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <i class="fas fa-user-graduate fa-2x"></i>
+                        <h3>500+</h3>
+                        <p>Students</p>
+                    </div>
+                    <div class="stat">
+                        <i class="fas fa-chalkboard-teacher fa-2x"></i>
+                        <h3>50+</h3>
+                        <p>Expert Faculty</p>
+                    </div>
+                    <div class="stat">
+                        <i class="fas fa-book-open fa-2x"></i>
+                        <h3>25+</h3>
+                        <p>Programs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="admission" class="admission">
+        <h2>Admission Process</h2>
+        <div class="admission-steps">
+            <div class="step">
+                <div class="step-icon">
+                    <i class="fas fa-file-alt"></i>
+                </div>
+                <img src="https://img.freepik.com/free-photo/close-up-hand-writing-application-form_23-2148573466.jpg" 
+                     alt="Application Process" 
+                     onerror="this.classList.add('error')">
+                <h3><i class="fas fa-pen-fancy"></i> Submit Application</h3>
+                <p>Complete the online application form with required documents.</p>
+            </div>
+            <div class="step">
+                <div class="step-icon">
+                    <i class="fas fa-tasks"></i>
+                </div>
+                <img src="https://img.freepik.com/free-photo/students-knowing-right-answer_23-2148888772.jpg" 
+                     alt="Entrance Exam" 
+                     onerror="this.classList.add('error')">
+                <h3><i class="fas fa-edit"></i> Entrance Exam</h3>
+                <p>Take the entrance examination in your chosen field.</p>
+            </div>
+            <div class="step">
+                <div class="step-icon">
+                    <i class="fas fa-comments"></i>
+                </div>
+                <img src="https://img.freepik.com/free-photo/young-woman-having-job-interview-with-employer_23-2149030583.jpg" 
+                     alt="Interview Process" 
+                     onerror="this.classList.add('error')">
+                <h3><i class="fas fa-users"></i> Interview</h3>
+                <p>Personal interview with faculty members.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2><i class="fas fa-envelope"></i> Contact Us</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt icon-primary"></i>
+                    <h3>Our Location</h3>
+                    <p>11 M.Iqbol Street, Bukhara 200118, Uzbekistan</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-phone icon-primary"></i>
+                    <h3>Phone</h3>
+                    <p>+998 65 223-00-50</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-envelope icon-primary"></i>
+                    <h3>Email</h3>
+                    <p>info@college-bukhara.uz</p>
+                </div>
+            </div>
+            <div class="contact-map">
+                <div class="map-instructions">
+                    <h3><i class="fas fa-map-marked-alt"></i> Map Instructions</h3>
+                    <ul>
+                        <li><i class="fas fa-external-link-alt"></i> Click the map to open in Google Maps</li>
+                        <li><i class="fas fa-directions"></i> Get directions to our location</li>
+                        <li><i class="fas fa-street-view"></i> View street level imagery</li>
+                        <li><i class="fas fa-info-circle"></i> See local attractions and places</li>
+                    </ul>
+                    <button class="close-instructions" onclick="hideMapInstructions()">
+                        <i class="fas fa-times"></i> Close Instructions
+                    </button>
+                </div>
+                <button class="show-instructions" onclick="showMapInstructions()">
+                    <i class="fas fa-question-circle"></i> How to use map
+                </button>
+                <a href="https://www.google.com/maps/place/Bukhara,+Uzbekistan/@39.7683929,64.4091361,13z" 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   class="map-link">
+                    <div class="static-map">
+                        <img src="https://maps.googleapis.com/maps/api/staticmap?center=Bukhara,Uzbekistan&zoom=13&size=800x450&scale=2&maptype=roadmap&markers=color:red%7CBukhara,Uzbekistan" 
+                             alt="Map of Bukhara, Uzbekistan"
+                             onerror="this.src='https://i.imgur.com/jYoR0vq.png'">
+                        <div class="map-overlay">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span>Click to open in Google Maps</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#programs">Programs</a></li>
+                    <li><a href="#admission">Apply Now</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect With Us</h4>
+                <div class="social-links">
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 International College of Uzbekistan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
